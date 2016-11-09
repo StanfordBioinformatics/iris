@@ -5,5 +5,6 @@ Genetic variant annotation visualization.
 
 ### Sources
 - D3 Javascript visualization library: https://d3js.org
+- Parallel coordinates with reorderable axes: https://bl.ocks.org/jasondavies/1341281
 - CADD scores: http://cadd.gs.washington.edu
 - ExAC exomes: http://exac.broadinstitute.org
