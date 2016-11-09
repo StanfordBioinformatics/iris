@@ -12,7 +12,7 @@ Next, what do we do with the x-axis? Well, we don't know how many annotations we
 
 Now, we can draw each variant as a line, going from left to right, connecting its corresponding points on each annotation axis.
 
-This is called <a href="https://en.wikipedia.org/wiki/Parallel_coordinates">parallel coordinates</a>. It's good at showing multidimensional data and relationships in 2D. We want to try using it to show variant annotations.
+This is called <a href="https://en.wikipedia.org/wiki/Parallel_coordinates">parallel coordinates</a>. It's good at showing multidimensional data and relationships. We want to try using it to show variant annotations.
 
 ### Sources
 - D3 Javascript visualization library: https://d3js.org
