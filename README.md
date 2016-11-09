@@ -1,5 +1,5 @@
 # iris
-Visualization of gene variant annotations.
+Genetic variant annotation visualization.
 
 <a href="https://stanfordbioinformatics.github.io/iris"><img src="https://stanfordbioinformatics.github.io/iris/preview2.png" width=800></a>
 
