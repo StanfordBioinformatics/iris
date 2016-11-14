@@ -4,15 +4,15 @@
 
 ### About
 
-How do we show a visual overview of variant annotations, when those annotations can come from anywhere and mean anything? And when we don't even know how many annotation sources we're interested in?
+How do we show a visual overview of variant annotations, when those annotations can come from anywhere and mean anything? When we don't even know how many annotation sources we're interested in?
 
 Let's simplify. First, we know we want to draw things on a screen. That implies 2D space. So, let's just consider annotations that can be meaningfully mapped to a y-axis. That means we're only looking at ranked or quantitative data. 
 
-Next, what do we do with the x-axis? Well, we don't know how many annotations we want to include, and we need room to show them. Let's place each annotation's y-axis left to right, side by side.
+Next, we don't know how many annotations we want to include, and we need room to show them. We haven't used our x-axis yet, so let's place each annotation's y-axis left to right, side by side.
 
 Now, we can draw each variant as a line, going from left to right, connecting its corresponding points on each annotation axis.
 
-This is called <a href="https://en.wikipedia.org/wiki/Parallel_coordinates">parallel coordinates</a>. It's good at showing multidimensional data and relationships. We want to try using it to show variant annotations.
+This is called <a href="https://en.wikipedia.org/wiki/Parallel_coordinates">parallel coordinates</a>. It's good at showing relationships in multidimensional data. We want to try using it to show variant annotations.
 
 ### Sources
 - D3 Javascript visualization library: https://d3js.org
